@@ -5,10 +5,13 @@
 */
 
 /* Header */
-
+	
+	/*
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#4fa49a", endColorStr="#4361c2", GradientType=1);
+	*/
 	#header {
-		background-image: none;
-		filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#4fa49a", endColorStr="#4361c2", GradientType=1);
+		background-image: url("../../images/grau_farbverlauf.png");
+		
 		position: relative;
 	}
 
