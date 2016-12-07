@@ -196,28 +196,28 @@
 /* Header */
 
 	#header {
-		background-color: #4686a0;
-		color: #ffffff;
+		background-color: #2a3f54;
+		color: #2a3f54;
 	}
 
 		#header a {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #2a3f54;
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #2a3f54;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+			color: #2a3f54;
 		}
 
 		#header header p {
-			color: #ffffff;
+			color: #2a3f54;
 		}
 
 		#header header.major:after {
-			background: #ffffff;
+			background: #2a3f54;
 		}
 
 		#header input[type="submit"],
