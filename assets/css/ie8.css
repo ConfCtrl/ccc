@@ -196,28 +196,28 @@
 /* Header */
 
 	#header {
-		background-color: #2a3f54;
-		color: #2a3f54;
+		background-color: #344153;
+		color: #344153;
 	}
 
 		#header a {
-			border-bottom-color: #2a3f54;
+			border-bottom-color: #344153;
 		}
 
 			#header a:hover {
-				color: #2a3f54;
+				color: #344153;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #2a3f54;
+			color: #344153;
 		}
 
 		#header header p {
-			color: #2a3f54;
+			color: #344153;
 		}
 
 		#header header.major:after {
-			background: #2a3f54;
+			background: #344153;
 		}
 
 		#header input[type="submit"],
