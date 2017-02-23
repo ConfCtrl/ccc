@@ -17,12 +17,13 @@
 				<div class="inner">
 					
 					
-					<h1>Cisco Configuration Control</h1>
+					<h1>Central Configuration Control</h1>
 					<br>
 					<div id="logo">
 						<span class="image fit"><img src="images/logo04.png" alt="" /></span>
 					</div>
-					<p>Diplomarbeit aus dem Jahr 2016/17</p>
+					<!--<p>Diplomarbeit aus dem Jahr 2016/17</p>-->
+					<p>Diploma project from the year 2016/17</p>
 					<br>
 					<a href="#one" class="button scrolly">Tell me more</a>
 					<!--<a href="#two" class="button scrolly">Anleitung</a>
@@ -38,12 +39,19 @@
 			<section id="one" class="main style1">
 				<div class="container">
 					<header class="major" align="center">
-						<h2>Über die Diplomarbeit</h2>
+						<h2>About the diploma porject</h2>
 					</header>
 					
 							
+							<!--
 							<p>Das Ziel dieser Diplomarbeit war, die Administration eines Netzwerks zu vereinfachen indem überwacht und gesichert wird. </p>
+							-->
+							<p>The goal of this diploma project is, to simplify the network administration by monitoring and saving data.</p>
+							<!--
 							<h4>Überwachung der Netzwerkgeräte</h4>
+							-->
+							<h4>Monitoring network devices</h4>
+							<!--
 							<p>
 								Unter der Überwachung der Netzwerkgeräte versteht sich eine regelmäßige
 								Abfrage diverser „Show Befehle“ auf den Maschinen, um eventuelle Änderungen,
@@ -58,8 +66,22 @@
 								überwacht werden sollen, wird vom Netzwerkadministrator bei der
 								ersten Konfiguration angegeben und kann jederzeit geändert werden.
 							</p>
-							
+							-->
+							<p>
+								Monitoring network devices is defined as regular requests on various "show commands" of the devices,
+								to detect possible changes, failures or performance problems such as missing disk space, and inform 
+								the network administrator. Which devices have to be monitored, is declared by the network administrator on
+								the first configuration and can be changed every time.
+								Furthermore, we took a special focus on VoIP devices (Cisco Phones).
+								The reachability of these VoIP devices is checked regularly and the network administrator will be informed in case of failure.
+								Which devices have to be monitored, is declared by the network administrator on
+								the first configuration and can be changed every time.
+							</p>
+							<!--
 							<h4>Konfigurationssicherung der Netzwerkgeräte</h4>
+							-->
+							<h4>Configuration backub of network devices</h4>
+							<!--
 							<p>
 								Als Konfigurationssicherung bezeichnen wir eine regelmäßige Sicherung der
 								„Running-Configuration“ und anderer relevanter „Show-Befehle“ (Welche Befehle
@@ -72,14 +94,22 @@
 								Konfiguration dieses Gerätes, wird eine Status Meldung dem Administrator
 								geschickt. 
 							</p>
-						
-					
+							-->
+							<p>
+							Configuration backup is defined as regular saving of the "Running-Configuration" and other relevant 
+							"show commands"(what commands are relevant is defined and tested during the diploma project). These informations 
+							are saved local on the computer our program/tool is running on. Our program/tool creates a suitable folder 
+							structure for this.
+							This regular savings are tested on their consistency and in case of a change in the configuration file
+							compared to the last saved configuration file, a status report is sent to the administrator. 
+							</p>
 				</div>
 			</section>
 
 		<!-- Two -->
 			<section id="two" class="main style2">
 				<div class="container">
+				<!--
 					<div class="row 150%">
 						<div class="6u 12u$(medium)">
 							<ul class="major-icons">
@@ -96,8 +126,13 @@
 								<h2>Anleitung zur Benutzung des Tools</h2>
 							</header>
 							<p>coming soon...</p>
-							</div>
+						</div>
 					</div>
+				-->
+					<header class="major">
+						<h2>Video Presentation</h2>
+					</header>
+					<p>coming soon...</p>
 				</div>
 			</section>
 
@@ -105,7 +140,7 @@
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Das Team</h2>
+						<h2>The Team</h2>
 					</header>
 					
 					<div id="team">
@@ -113,22 +148,22 @@
 							<div class="3u 12u$(medium)">
 								<span class="image fit"><img src="images/haselsteiner.jpg" alt="" /></span>
 								<h3>Florian Haselsteiner</h3> 
-								<p>Projektleiter</p>
+								<p>Project supervisor</p>
 							</div>
 							<div class="3u 12u$(medium)">
 								<span class="image fit"><img src="images/micanovic.jpg" alt="" /></span>
 								<h3>Mario Micanovic</h3> 
-								<p>Projektleiter-Stellvertreter</p>
+								<p>Project supervisor deputy</p>
 							</div>
 							<div class="3u 12u$(medium)">	
 								<span class="image fit "> <img src="images/cyniburk.jpg" alt="" /></span>
 								<h3>Andreas Cyniburk</h3>
-								<p>Mitarbeiter</p>
+								<p>Staff</p>
 							</div>
 							<div class="3u 12u$(medium)">
 								<span class="image fit"><img src="images/thiel.jpg" alt="" /></span>
 								<h3>Maximilian Thiel</h3> 
-								<p>Mitarbeiter</p>	
+								<p>Staff</p>	
 							</div>
 						</div>
 					</div>
@@ -140,13 +175,13 @@
 			<section id="four" class="main style3 special">
 				<div class="container">
 					<header class="major">
-						<h2>Projektstatus</h2>
+						<h2>Project status</h2>
 					</header>
-					<p>Das Projektteam ist derzeit mitten in der Umsetzung. Genauer: Es laufen Tests von Gerätesicherungen, Tests die Gerätekonfigurationen einzuspielen und Arbeiten am Webinterface. Um dabei die bestmögliche Performance und Zuverlässigkeit zu gewährleisten, werden diese Tests mit verschiedensten Frameworks und Tools durchgeführt.</p>
-					<p>Mit den folgenden Buttons, können Sie Dokumente unserer Diplomarbeit herunterladen.</p>
-					<a href="./downloads/TutUnsLeid.txt" class="button scrolly" download>Präsentationen</a>
-					<a href="./downloads/ccc-antrag.pdf" class="button scrolly" download>Diplomarbeitsantrag</a>
-					<a href="./downloads/ManagementSummaries.zip" class="button scrolly" download>Management Summaries</a>
+					<p>The diploma project is finished in its basic points. Just the last touch is missing.</p>
+					<p>You can download documents to our diploma project with the buttons below.</p>
+					<a href="./downloads/TutUnsLeid.txt" class="button scrolly" download>Presentations</a>
+					<a href="./downloads/ccc-antrag.pdf" class="button scrolly" download>Apllication form</a>
+					<a href="./downloads/ManagementSummaries.zip" class="button scrolly" download>Management summaries</a>
 				</div>
 			</section>	
 			
@@ -156,9 +191,9 @@
 					<header class="major">
 						<h2>Download</h2>
 					</header>
-					<p>Finden Sie das Tool nützlich? <br /> Mit diesem Link, können Sie es kostenlos verwenden.</p>
+					<p>Do you like our tool? <br /> You can test it for free with the link below.</p>
 					<ul class="actions uniform">
-						<li><a href="./downloads/TutUnsLeid.txt" class="button scrolly" download>Download CCC</a></li>
+						<li><a href="./downloads/CCC_CentOS7_Server_v66.ova" class="button scrolly" download>Download CCC</a></li>
 					</ul>
 				</div>
 			</section>
@@ -167,12 +202,12 @@
 
 		<!-- Footer -->
 			<section id="footer">
-				<h2>Kontakt</h2>
-				<p>Bei Fragen freuen wir uns, wenn Sie uns kontaktieren.</p>
+				<h2>Contact</h2>
+				<p>If you have any questions, we would be pleased, if you contact us.</p>
 				<ul class="icons">
-					<li><a href="mailto:maximilian.thiel@edu.htl.rennweg.at" class="icon alt fa-envelope"><span class="label">maximilian.thiel@edu.htl.rennweg.at</span></a></li>
+					<li><a href="mailto:confctrl@outlook.com" class="icon alt fa-envelope"><span class="label">confctrl@outlook.com</span></a></li>
 				</ul>
-				maximilian.thiel@edu.htl.rennweg.at
+				centralconfigctrl@gmail.com
 				<ul class="copyright">
 					<li>&copy; Copyright</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>

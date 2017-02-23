@@ -111,11 +111,11 @@
 		}
 
 		.main.style2 header p {
-			color: #ffffff;
+			color: #2a3f54;
 		}
 
 		.main.style2 header.major:after {
-			background: #ffffff;
+			background: #2a3f54;
 		}
 
 		.main.style2 input[type="submit"],
@@ -283,28 +283,28 @@
 /* Footer */
 
 	#footer {
-		background-color: #4686a0;
-		color: #ffffff;
+		background-color: #344153;
+		color: #344153;
 	}
 
 		#footer a {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #344153;
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #344153;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #ffffff;
+			color: #344153;
 		}
 
 		#footer header p {
-			color: #ffffff;
+			color: #344153;
 		}
 
 		#footer header.major:after {
-			background: #ffffff;
+			background: #344153;
 		}
 
 		#footer input[type="submit"],
